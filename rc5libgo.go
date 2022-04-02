@@ -11,7 +11,7 @@ const (
 	W32 = 32         // machine word as half of block
 	R12 = 12         // rounds, if zero no encoding
 	P32 = 0xb7e15163 // magic nunber P for w =32 as Pw = Odd((f - 1) * 2^W;
-	Q32 = 0x9e3779b9 // magic number Q for Q =32 as Qw = Odd((e - 2) * 2^W;
+	Q32 = 0x9e3779b9 // magic number Q for W =32 as Qw = Odd((e - 2) * 2^W;
 )
 
 //#define ROTL(x,y) (((x)<<(y&(w-1))) | ((x)>>(w-(y&(w-1)))))
